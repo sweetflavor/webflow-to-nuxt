@@ -1,0 +1,19 @@
+{
+  "name": "nuxtwebflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "@alex/nuxtwebflow": "bin/webnuxt.js",
+    "webnuxt": "bin/webnuxt.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alex Man",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
