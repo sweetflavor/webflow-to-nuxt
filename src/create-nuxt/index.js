@@ -13,7 +13,7 @@ export default function createNuxtProject (name, path) {
         console.log(files);
         files.map(file => {
             console.log(file);
-            exec(`cd ${name}/pages && echo "<template></template>" > ${file}.vue`)
+            exec(`cd ${name}/pages && echo "<template></template>" > ${file.replace('.html', '.vue')}`)
         })
     })
 }
