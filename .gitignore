@@ -3,4 +3,5 @@ logs/
 *.log
 !example.log
 yarn.lock
+web-*/
 
